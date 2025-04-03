@@ -18,6 +18,7 @@ public class Main {
 
         Service service = new Service(fileRepository1, fileRepository2, fileRepository3);
         UI consola = new UI(service);
+        UI consola2 = new UI(service);
         consola.run();
 
         //PENTRU GUI
